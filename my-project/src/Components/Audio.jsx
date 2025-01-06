@@ -7,7 +7,7 @@ import Relate8 from "./Audio/Relate8";
 
 const Audio1 =()=>{
     return(
-      <div>
+      <div className="">
    <Slide10/>
    <Oview8/>
    <Product8/>
