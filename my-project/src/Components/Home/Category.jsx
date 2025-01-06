@@ -46,7 +46,6 @@ const Category = () => {
         <IoIosArrowBack size={24} />
       </button>
 
-      {/* Category List */}
       <div
         ref={scrollRef}
         className="flex space-x-12 overflow-x-auto p-4 xl:mt-[15vh] mt-10 scrollbar-hide"
@@ -70,8 +69,6 @@ const Category = () => {
           </a>
         ))}
       </div>
-
-      {/* Scroll Right Button */}
       <button
         onClick={scrollRight}
         className="absolute right-2 top-1/2 transform -translate-y-1/2 text-red-600 p-2 rounded-full z-10 text-xl xl:mt-20"

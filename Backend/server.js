@@ -23,16 +23,14 @@ const distPath = path.join(
     'dist'
 );
 
-app.use(express.static(distPath));
-app.get('/', (req, res) => {
-    res.sendFile(path.join(distPath, 'index.html'));
-});
-
-
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
-
 app.use('/api', router);
+
+app.use(express.static(distPath));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(distPath, 'index.html'));
+});
 
 connection()
     .then(() => {
