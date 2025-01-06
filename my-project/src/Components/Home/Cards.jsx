@@ -30,10 +30,10 @@ const Cards = () => {
           HOT PRODUCTS
         </h1>
         <p className="text-center text-md font-semibold mt-7 mb-16 text-white/50">
-          {/* View All Motherboards */}
+       
         </p>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7">
-                   <Link to={`http://localhost:5173/viewcase/6755bf6d9f72529cc63f2f3d`}>
+                   <Link to={`/viewcase/6755bf6d9f72529cc63f2f3d`}>
             <div className="bg-white/10 hover:bg-black/30 overflow-hidden p-5 rounded-lg shadow-lg h-[500px] flex flex-col">
               <img
                 src="https://asset.msi.com/resize/image/global/product/product_173028034930f57092f6b23f2405f88e4320a5171d.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
@@ -52,7 +52,7 @@ const Cards = () => {
               </div>
             </div>
           </Link>
-          <Link to={`http://localhost:5173/viewcase/6753dfc3fbaa1f03cbe2be95`}>
+          <Link to={`/viewcase/6753dfc3fbaa1f03cbe2be95`}>
             <div className="bg-white/10 hover:bg-black/30 overflow-hidden p-5 rounded-lg shadow-lg h-[500px] flex flex-col">
               <img
                 src="https://images.acer.com/is/image/acer/Predator-Orion-7000-Homepage-Photo?$responsive$"
@@ -68,7 +68,7 @@ const Cards = () => {
               </div>
             </div>
           </Link>
-          <Link to={`http://localhost:5173/viewcase/6759a8942f61b7bf3fb983de`}>
+          <Link to={`/viewcase/6759a8942f61b7bf3fb983de`}>
             <div className="bg-white/10 hover:bg-black/30 overflow-hidden p-5 rounded-lg shadow-lg h-[500px] flex flex-col">
               <img
                 src="https://dlcdnwebimgs.asus.com/gain/DDA5D7BA-6EAB-4EA8-A35E-464BE1B40848/w1000/h732"
@@ -84,7 +84,7 @@ const Cards = () => {
               </div>
             </div>
           </Link>
-          <Link to={`http://localhost:5173/viewcase/66fae4d5430510aba5ac0870`}>
+          <Link to={`/viewcase/66fae4d5430510aba5ac0870`}>
             <div className="bg-white/10 hover:bg-black/30 overflow-hidden p-5 rounded-lg shadow-lg h-[500px] flex flex-col">
               <img
                 src="https://dlcdnwebimgs.asus.com/gain/43993576-CA02-46A8-9BBE-10D6F11F2E25/w1000/h732"

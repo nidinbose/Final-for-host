@@ -78,7 +78,7 @@ const ViewOrders = () => {
                 <div className="space-y-4">
                   {order.items.map((item, index) => (
                     <div key={index} className="md:flex items-center space-x-4 border-b border-gray-200 py-5">
-                      <Link to={`http://localhost:5173/viewcase/${item.itemId}`}>
+                      <Link to={`/viewcase/${item.itemId}`}>
                         <img src={item.photo} alt={item.name} className="w-48 h-48 object-cover rounded-md" />
                       </Link>
                       <div className="flex-1">

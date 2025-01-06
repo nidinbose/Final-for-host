@@ -11,6 +11,7 @@ const __dirname = path.dirname(__filename);
 
 env.config();
 const app = express();
+
 const distPath = path.join(
     'C:',
     'Users',
@@ -25,9 +26,10 @@ const distPath = path.join(
 
 app.use(cors());
 app.use(express.json({ limit: '50mb' }));
-app.use('/api', router);
 
+app.use('/api', router);
 app.use(express.static(distPath));
+
 app.get('*', (req, res) => {
     res.sendFile(path.join(distPath, 'index.html'));
 });

@@ -66,19 +66,19 @@ const Overview = () => {
           <div className="grid grid-cols-2 gap-4">
             {[
               {
-                link: 'http://localhost:5173/viewcase/67568e51f504e480061de379',
+                link: '/viewcase/67568e51f504e480061de379',
                 imgSrc: 'https://dlcdnwebimgs.asus.com/gain/D215A157-ABB4-4D8B-B869-ADEEFB7237DA/w717/h525',
               },
               {
-                link: 'http://localhost:5173/viewcase/66f9921527f4db6d22acc448',
+                link: '/viewcase/66f9921527f4db6d22acc448',
                 imgSrc: 'https://dlcdnwebimgs.asus.com/gain/117ACAB9-87EE-4E2B-8D1C-CE9E578768BB/w717/h525',
               },
               {
-                link: 'http://localhost:5173/viewcase/66dd50313a7d99f1438009a7',
+                link: '/viewcase/66dd50313a7d99f1438009a7',
                 imgSrc: 'https://dlcdnwebimgs.asus.com/files/media/E8F9316B-CB25-42B5-9422-CA99338CDB38/v1/img/spec/performance.png',
               },
               {
-                link: 'http://localhost:5173/viewcase/6758550df7157614adfdc17f',
+                link: '/viewcase/6758550df7157614adfdc17f',
                 imgSrc: 'https://dlcdnwebimgs.asus.com/gain/CC24A593-7041-4152-A5E4-63628FF95576/w717/h525',
               },
             ].map((item, index) => (
