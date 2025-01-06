@@ -1,7 +1,7 @@
 import express from 'express';
-import connection from "./Backend/connection.js";
+import connection from "./connection.js";
 import env from 'dotenv';
-import router from './Backend/router.js';
+import router from './router.js';
 import cors from 'cors';
 
 
