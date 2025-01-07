@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import "./CSS/category.css";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import {Link} from 'react-router-dom'
 
 const Category = () => {
   const categories = [
@@ -51,11 +52,8 @@ const Category = () => {
         className="flex space-x-12 overflow-x-auto p-4 xl:mt-[15vh] mt-10 scrollbar-hide"
       >
         {categories.map((category, index) => (
-          <a
-            href={category.link}
-            key={index}
-            className="flex-shrink-0 w-48 sm:w-56 lg:w-64 bg-transparent hover:border-blue-300 duration-300 overflow-hidden xl:pb-12"
-          >
+        <Link to={category.link} key={index} className="flex-shrink-0 w-48 sm:w-56 lg:w-64 bg-transparent hover:border-blue-300 duration-300 overflow-hidden xl:pb-12">
+           
             <img
               src={category.imageUrl}
               alt={category.title}
@@ -66,7 +64,7 @@ const Category = () => {
                 {category.title}
               </h1>
             </div>
-          </a>
+              </Link>
         ))}
       </div>
       <button

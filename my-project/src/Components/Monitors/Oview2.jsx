@@ -17,7 +17,7 @@ const Oview2 = () => {
       </motion.h1>
 
          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-      <Link to={`http://localhost:5173/viewcase/66d8a3ddf3083324b076cda0`}>
+      <Link to={`/viewcase/66d8a3ddf3083324b076cda0`}>
      <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -42,7 +42,7 @@ const Oview2 = () => {
 </motion.div></Link>
 
 
-<Link to={`http://localhost:5173/viewcase/6755c4719f72529cc63f2fd2`}>
+<Link to={`/viewcase/6755c4719f72529cc63f2fd2`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -67,7 +67,7 @@ const Oview2 = () => {
 </motion.div></Link>
 
      
-<Link to={`http://localhost:5173/viewcase/67567975f504e480061de282`}>
+<Link to={`/viewcase/67567975f504e480061de282`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -93,7 +93,7 @@ const Oview2 = () => {
 </Link>
 
 
-<Link to={`http://localhost:5173/viewcase/67567dfef504e480061de2a7`}>
+<Link to={`/viewcase/67567dfef504e480061de2a7`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -118,7 +118,7 @@ const Oview2 = () => {
 </motion.div>
 </Link>
 
-<Link to={`http://localhost:5173/viewcase/67568e51f504e480061de379`}>
+<Link to={`/viewcase/67568e51f504e480061de379`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -143,7 +143,7 @@ const Oview2 = () => {
 </motion.div>
 </Link >
 
-<Link to={`http://localhost:5173/viewcase/675680cbf504e480061de2bf`}>
+<Link to={`/viewcase/675680cbf504e480061de2bf`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}

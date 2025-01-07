@@ -17,7 +17,7 @@ const Oview7 = () => {
       </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
      
-     <Link to={`http://localhost:5173/viewcase/67591165cd789d4a9d6a7a4b`}>
+     <Link to={`/viewcase/67591165cd789d4a9d6a7a4b`}>
      <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -42,7 +42,7 @@ const Oview7 = () => {
 </motion.div>
      </Link>
 
-<Link to={`http://localhost:5173/viewcase/66fae958430510aba5ac095d`}>
+<Link to={`/viewcase/66fae958430510aba5ac095d`}>
 
 <motion.div
   className="relative overflow-hidden image-container"
@@ -69,7 +69,7 @@ const Oview7 = () => {
 
 </Link>
      
-<Link to={`http://localhost:5173/viewcase/67590ff2cd789d4a9d6a7a39`}>
+<Link to={`/viewcase/67590ff2cd789d4a9d6a7a39`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}

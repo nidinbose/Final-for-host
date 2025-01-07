@@ -70,7 +70,10 @@ const Login = () => {
   };
 
   return (
+    <div>
+      
     <section className="grid h-screen place-items-center p-8 bg-white">
+     
       <div>
         <Typography variant="h3" color="blue-gray" className="mb-2 text-center font-semibold">
           Sign In to Santics user
@@ -176,8 +179,14 @@ const Login = () => {
       </div>
       <div><h1>User Email : user2@gmail.com</h1>
       <h2>User Password : ASDasd123#</h2>
+
+      <Link  to={`/adminlogin`} className="flex items-end justify-end"> click for admin login <button className=" flex justify-end">Admin</button></Link>
+      </div>
+      <div className="flex items-end justify-end ">
+     
       </div>
     </section>
+    </div>
   );
 };
 

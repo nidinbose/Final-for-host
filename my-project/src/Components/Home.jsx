@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect} from "react";
 
 import Curosals from "./Home/Curosals";
 import Category from "./Home/Category";
@@ -16,6 +16,8 @@ import Bottom from "./Navbar/bottom";
 
 
 const Home=()=>{
+
+ 
     return (
         <div className="overflow-hidden">
           <Bottom/>

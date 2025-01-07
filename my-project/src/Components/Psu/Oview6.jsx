@@ -16,7 +16,7 @@ const Oview6 = () => {
       Power Supplay Unit
       </motion.h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
-            <Link to={`http://localhost:5173/viewcase/675856a1f7157614adfdc18b`}>
+            <Link to={`/viewcase/675856a1f7157614adfdc18b`}>
             <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -34,7 +34,7 @@ const Oview6 = () => {
  
 </motion.div>
            </Link>
-<Link to={`http://localhost:5173/viewcase/67585a2cf7157614adfdc1b5`}>
+<Link to={`/viewcase/67585a2cf7157614adfdc1b5`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -53,7 +53,7 @@ const Oview6 = () => {
 </Link>
 
      
-<Link to={`http://localhost:5173/viewcase/6758550df7157614adfdc17f`}>
+<Link to={`/viewcase/6758550df7157614adfdc17f`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}
@@ -71,7 +71,7 @@ const Oview6 = () => {
 </motion.div>
 </Link>
 
-<Link to={`http://localhost:5173/viewcase/67585ccaf7157614adfdc1c1`}>
+<Link to={`/viewcase/67585ccaf7157614adfdc1c1`}>
 <motion.div
   className="relative overflow-hidden image-container"
   whileHover={{ scale: 1.05 }}

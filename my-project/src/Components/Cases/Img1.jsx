@@ -19,7 +19,7 @@ const Img1 = () => {
  
       </motion.h1>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-      <Link to={`http://localhost:5173/viewcase/66f9921527f4db6d22acc448`}>
+      <Link to={`/viewcase/66f9921527f4db6d22acc448`}>
       <motion.div
           className="relative overflow-hidden image-container"
           whileHover={{ scale: 1.05 }}
@@ -34,7 +34,7 @@ const Img1 = () => {
             className="w-full h-full object-cover"
           />
         </motion.div></Link>
-        <Link to={`http://localhost:5173/viewcase/6753dfc3fbaa1f03cbe2be95`}>
+        <Link to={`/viewcase/6753dfc3fbaa1f03cbe2be95`}>
         <motion.div
           className="relative overflow-hidden image-container"
           whileHover={{ scale: 1.05 }}
@@ -49,7 +49,7 @@ const Img1 = () => {
             className="w-full h-full object-cover"
           />
         </motion.div></Link>
-    <Link to={`http://localhost:5173/viewcase/67541901bddfa8827c144902`}>
+    <Link to={`/viewcase/67541901bddfa8827c144902`}>
     <motion.div
           className="relative overflow-hidden image-container"
           whileHover={{ scale: 1.05 }}
