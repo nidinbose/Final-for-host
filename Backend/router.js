@@ -47,7 +47,7 @@ router.route('/updateaddress/:id').patch(request.updateAddress)
 
 
 
-router.route('/payment/upi-payment').post(request.upiPayment)
+// router.route('/payment/upi-payment').post(request.upiPayment)
 router.route('/getuserdata/:id').get(request.getUserData)
 
 

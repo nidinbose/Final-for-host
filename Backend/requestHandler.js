@@ -772,22 +772,22 @@ export async function updateAddress(req,res){
 
 
 
-export async function upiPayment(req, res) {
-  try {
-        const { upiId, amount, name } = req.body;
+// export async function upiPayment(req, res) {
+//   try {
+//         const { upiId, amount, name } = req.body;
 
-       if (!upiId || !amount || !name) {
-          return res.status(400).json({ message: 'All fields are required' });
-      }
+//        if (!upiId || !amount || !name) {
+//           return res.status(400).json({ message: 'All fields are required' });
+//       }
 
-      const upiUrl = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(name)}&am=${amount}&cu=INR`;
+//       const upiUrl = `upi://pay?pa=${encodeURIComponent(upiId)}&pn=${encodeURIComponent(name)}&am=${amount}&cu=INR`;
 
-      res.status(200).json({ upiUrl });
-  } catch (error) {
-      console.error("Error generating UPI URL:", error);
-      res.status(500).json({ message: 'Server error while generating UPI URL' });
-  }
-}
+//       res.status(200).json({ upiUrl });
+//   } catch (error) {
+//       console.error("Error generating UPI URL:", error);
+//       res.status(500).json({ message: 'Server error while generating UPI URL' });
+//   }
+// }
 
 
 
