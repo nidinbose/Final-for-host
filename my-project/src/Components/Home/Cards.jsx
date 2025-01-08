@@ -18,7 +18,7 @@ const Cards = () => {
     <div
       className="w-full h-full py-8 xl:p-20"
       style={{
-        backgroundImage: "url('https://img.freepik.com/free-photo/gamer-sitting-chair-full-shot_23-2149829174.jpg?t=st=1735715516~exp=1735719116~hmac=a7afa6ae1bb691dae26d11b7f492521dd74676688a8541e081e92b68b18c09e1&w=1480')",
+        backgroundImage: "url('https://cdn.wallpapersafari.com/42/61/vZ36KY.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
