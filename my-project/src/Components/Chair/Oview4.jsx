@@ -18,7 +18,7 @@
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
        <Link to={`/viewcase/66fae4d5430510aba5ac0870`}>
        <motion.div
-            className="relative overflow-hidden image-container border-animation"
+            className="relative overflow-hidden image-container border-animation relative"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             initial={{ y: -100, opacity: 0 }}
